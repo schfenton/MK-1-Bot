@@ -1,8 +1,9 @@
 from discord.ext import commands
 from dotenv import load_dotenv
-import emote_list
-
 import os
+
+import emote_list
+import json
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
@@ -10,6 +11,8 @@ GUILD = os.getenv('DISCORD_GUILD')
 
 bot = commands.Bot(command_prefix='$')
 skynet_emotes = emote_list.EmoteList()
+with open('pokemon.json', 'r') as f:
+    pokemon_list = json.load(f)
 
 
 @bot.event
@@ -45,6 +48,18 @@ async def get_frequency(ctx):
         await ctx.send(output)
     else:
         await ctx.send("No custom emotes have been used.")
+
+
+@bot.command(name='pokemon')
+async def get_pokemon_name(ctx, *, arg):
+    total = 0
+    for c in arg:
+        if 97 <= ord(c) <= 122:  # if lowercase
+            total += ord(c) - 96
+        elif 65 <= ord(c) <= 90:  # if uppercase
+            total += ord(c) - 64
+    await ctx.send(pokemon_list[total])
+
 
 # @bot.event
 # async def on_error(event, *args, **kwargs):
