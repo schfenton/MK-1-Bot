@@ -2,15 +2,25 @@ from discord.ext import commands
 from dotenv import load_dotenv
 import os
 
-import emote_list
 import json
+import jsonpickle
+
+import emote_list
 
 load_dotenv()
 TOKEN = os.getenv('DISCORD_TOKEN')
 GUILD = os.getenv('DISCORD_GUILD')
 
 bot = commands.Bot(command_prefix='$')
-skynet_emotes = emote_list.EmoteList()
+
+emote_filename = 'emotes.json'
+try:
+    with open(emote_filename) as f:
+        skynet_emotes = jsonpickle.decode(f.read())
+except FileNotFoundError:
+    print("WARNING: No emote list found")
+    skynet_emotes = emote_list.EmoteList()
+
 with open('pokemon.json', 'r') as f:
     pokemon_list = json.load(f)
 
@@ -61,8 +71,21 @@ async def get_pokemon_name(ctx, *, arg):
     await ctx.send(pokemon_list[total])
 
 
-# @bot.event
-# async def on_error(event, *args, **kwargs):
+@bot.command(name='kill')
+async def leave(ctx):
+    with open(emote_filename, 'w') as f_obj:
+        f_obj.write(jsonpickle.encode(skynet_emotes))
+    exit()
 
+
+# def exit_handler():
+#     with open(emote_filename, 'w') as f_obj:
+#         json.dump(skynet_emotes.get_totals(), f_obj)
+#
+#
+# atexit.register(exit_handler)
+
+# @bot.event
+# async def on_error(event, *args, **kwargs):\
 
 bot.run(TOKEN)

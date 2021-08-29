@@ -2,12 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pokemon.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/voting_unittests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Sky.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EListEncoder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/emotes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/backend.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/compat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/numpy.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/pandas.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/handlers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/pickler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/tags.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/unpickler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/util.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/version.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star_voting.py" beforeDir="false" afterPath="$PROJECT_DIR$/STAR_voting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emote_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/emote_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/star_voting.py" beforeDir="false" afterPath="$PROJECT_DIR$/star_voting.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +99,7 @@
       </console-settings>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lab00">
+  <component name="RunManager" selected="Python.bot">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MK-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,6 +144,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="MK-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="scratch2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MK-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -147,21 +188,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for voting_unittests.TestList.test_poll_08" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <module name="MK-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;voting_unittests.TestList.test_poll_08&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Unittests in voting_unittests.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="MK-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -179,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.lab00" />
         <item itemvalue="Python.bot" />
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.lab00" />
         <item itemvalue="Python.scratch2" />
         <item itemvalue="Python tests.Unittests in voting_unittests.py" />
-        <item itemvalue="Python tests.Unittests for voting_unittests.TestList.test_poll_08" />
       </list>
     </recent_temporary>
   </component>
@@ -224,6 +250,9 @@
       <workItem from="1611780827647" duration="601000" />
       <workItem from="1611826365448" duration="54000" />
       <workItem from="1612339879117" duration="2000" />
+      <workItem from="1622444332815" duration="768000" />
+      <workItem from="1623200157591" duration="192000" />
+      <workItem from="1630178974958" duration="7850000" />
     </task>
     <servers />
   </component>
@@ -231,72 +260,38 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="80" y="178" key="#Deployment" timestamp="1610361110757">
+    <state width="1491" height="260" key="GridCell.Tab.0.bottom" timestamp="1630213470861">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="1491" height="260" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
+    <state width="1491" height="260" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
+    <state width="1491" height="260" key="GridCell.Tab.0.center" timestamp="1630213470861">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="1491" height="260" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
+    <state width="1491" height="260" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
+    <state width="1491" height="260" key="GridCell.Tab.0.left" timestamp="1630213470861">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="1491" height="260" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
+    <state width="1491" height="260" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
+    <state width="1491" height="260" key="GridCell.Tab.0.right" timestamp="1630213470861">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state width="1491" height="260" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
+    <state width="1491" height="260" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1623200338178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="80" y="178" key="#Deployment/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610361110757" />
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608714524376">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="718" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608714524376" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1609969525366">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609969525366" />
-    <state width="916" height="282" key="GridCell.Tab.0.bottom" timestamp="1609969717263">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961720532" />
-    <state width="916" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609969717263" />
-    <state width="916" height="282" key="GridCell.Tab.0.center" timestamp="1609969717262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961720531" />
-    <state width="916" height="282" key="GridCell.Tab.0.center/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609969717262" />
-    <state width="916" height="282" key="GridCell.Tab.0.left" timestamp="1609969717262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961720531" />
-    <state width="916" height="282" key="GridCell.Tab.0.left/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609969717262" />
-    <state width="916" height="282" key="GridCell.Tab.0.right" timestamp="1609969717262">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="938" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961720532" />
-    <state width="916" height="282" key="GridCell.Tab.0.right/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609969717262" />
-    <state x="0" y="162" key="SettingsEditor" timestamp="1610360935551">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="0" y="162" key="SettingsEditor/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1610360935551" />
-    <state x="949" y="346" key="com.intellij.ide.util.TipDialog" timestamp="1612339879997">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-971" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1605475623089" />
-    <state x="949" y="346" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1612339879997" />
-    <state x="521" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1609103036006">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="521" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1609103036006" />
-    <state x="-1329" y="65" width="737" height="909" key="find.popup" timestamp="1608961478333">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1329" y="65" width="737" height="909" key="find.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961478333" />
-    <state x="701" y="163" key="refactoring.ChangeSignatureDialog" timestamp="1608979501438">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="701" y="163" key="refactoring.ChangeSignatureDialog/0.0.1920.1040/-1920.0.1920.1040@0.0.1920.1040" timestamp="1608979501438" />
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608961553020">
-      <screen x="-1920" y="0" width="1920" height="1040" />
-    </state>
-    <state x="-1297" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1608961553020" />
+    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623200338178" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
-          <line>3</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/STAR_voting.py</url>
           <line>55</line>
@@ -306,6 +301,11 @@
           <url>file://$PROJECT_DIR$/STAR_voting.py</url>
           <line>42</line>
           <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
+          <line>4</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -334,12 +334,12 @@
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_candidate_err_02.coverage" NAME="Unittests for voting_unittests.TestList.test_candidate_err_02 Coverage Results" MODIFIED="1608962608078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_03.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_03 Coverage Results" MODIFIED="1609038668202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$scratch2.coverage" NAME="scratch2 Coverage Results" MODIFIED="1609191824208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/MK_1$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1608711028019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList.coverage" NAME="Unittests for voting_unittests.TestList Coverage Results" MODIFIED="1609015936910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1622444504106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max_01.coverage" NAME="Unittests for voting_unittests.TestList.test_max_01 Coverage Results" MODIFIED="1608980490989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_05.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_05 Coverage Results" MODIFIED="1609106481104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_04.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_04 Coverage Results" MODIFIED="1609038768364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1609192877309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630213470855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_02.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_02 Coverage Results" MODIFIED="1609059451353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1608782631083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_08.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_08 Coverage Results" MODIFIED="1609143650474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

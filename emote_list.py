@@ -14,7 +14,7 @@ class EmoteList:
 
     def __init__(self):
         self.totals = {}
-        self.users = UserMap()
+        # self.users = UserMap()
 
     def get_totals(self):
         """Returns the dictionary containing all emote ids and the frequency they were used across the server"""
@@ -29,7 +29,7 @@ class EmoteList:
             self.totals[emote_id] = 1
 
         # add to user emote frequency
-        self.users.add(user, emote_id)
+        # self.users.add(user, emote_id)
 
     # def sub(self, emote_id, user):
 
@@ -67,7 +67,7 @@ class UserMap:
         else:
             return None
 
-    # def get_emote_frequency(self, user):
+    # def get_all_emote_frequency(self, user):
     #     freq = {}
     #     for user, ufreqs in self.user_freq.items():
 
