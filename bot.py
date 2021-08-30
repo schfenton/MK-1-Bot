@@ -1,4 +1,5 @@
 from discord.ext import commands
+from discord import Embed
 from dotenv import load_dotenv
 import os
 
@@ -16,10 +17,10 @@ bot = commands.Bot(command_prefix='$')
 emote_filename = 'emotes.json'
 try:
     with open(emote_filename) as f:
-        skynet_emotes = jsonpickle.decode(f.read())
+        emoteList = jsonpickle.decode(f.read(), keys=True)
 except FileNotFoundError:
     print("WARNING: No emote list found")
-    skynet_emotes = emote_list.EmoteList()
+    emoteList = emote_list.EmoteList()
 
 with open('pokemon.json', 'r') as f:
     pokemon_list = json.load(f)
@@ -35,9 +36,10 @@ async def on_message(message):
     if message.author == bot.user or message.content[0] == bot.command_prefix:
         await bot.process_commands(message)
         return None
+
     emote_ids = emote_list.parse_message(message.content)
     for emote_id in emote_ids:
-        skynet_emotes.add(emote_id, message.author)
+        emoteList.add(emote_id, message.guild.id, message.author)
     print(emote_ids)
     return None
 
@@ -49,13 +51,13 @@ async def greeting(ctx):
 
 @bot.command(name='getfreq')
 async def get_frequency(ctx):
-    totals = list(skynet_emotes.get_totals().items())
-    print(totals)
+    totals = list(emoteList.get_totals()[ctx.guild.id].items())
     if len(totals) > 0:
         output = f"{totals[0][0]}\t:\t{totals[0][1]}"
         for i in range(1, len(totals)):
             output += f"\n{totals[i][0]}\t:\t{totals[i][1]}"
-        await ctx.send(output)
+        msg = Embed(description=output)
+        await ctx.send(embed=msg)
     else:
         await ctx.send("No custom emotes have been used.")
 
@@ -72,9 +74,11 @@ async def get_pokemon_name(ctx, *, arg):
 
 
 @bot.command(name='kill')
+@commands.is_owner()
 async def leave(ctx):
     with open(emote_filename, 'w') as f_obj:
-        f_obj.write(jsonpickle.encode(skynet_emotes))
+        f_obj.write(jsonpickle.encode(emoteList, keys=True))
+    await ctx.send("See ya!")
     exit()
 
 

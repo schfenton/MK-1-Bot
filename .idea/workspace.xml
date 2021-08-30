@@ -2,31 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Sky.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EListEncoder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emotes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/numpy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/pandas.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/handlers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/pickler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/tags.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/unpickler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/util.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/version.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/METADATA" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/RECORD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/WHEEL" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/top_level.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/client.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/cog_ext.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/const.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/context.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/dpy_overrides.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/error.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/http.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/manage_commands.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/manage_components.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EListEncoder.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emote_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/emote_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/star_voting.py" beforeDir="false" afterPath="$PROJECT_DIR$/star_voting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/emotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/emotes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +71,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
@@ -89,7 +88,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -252,42 +251,87 @@
       <workItem from="1612339879117" duration="2000" />
       <workItem from="1622444332815" duration="768000" />
       <workItem from="1623200157591" duration="192000" />
-      <workItem from="1630178974958" duration="7850000" />
+      <workItem from="1630178974958" duration="17845000" />
+      <workItem from="1630303334966" duration="8139000" />
     </task>
+    <task id="LOCAL-00001" summary="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment.">
+      <created>1630213711307</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1630213711307</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment." />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1491" height="260" key="GridCell.Tab.0.bottom" timestamp="1630213470861">
+    <state x="614" y="310" key="CommitChangelistDialog2" timestamp="1630213709798">
       <screen x="0" y="0" width="2048" height="1240" />
     </state>
-    <state width="1491" height="260" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state x="614" y="310" key="CommitChangelistDialog2/0.0.2048.1240@0.0.2048.1240" timestamp="1630213709798" />
+    <state width="1493" height="325" key="GridCell.Tab.0.bottom" timestamp="1630313841671">
+      <screen x="0" y="0" width="1536" height="984" />
+    </state>
+    <state width="1493" height="325" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630313841671" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1491" height="260" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
-    <state width="1491" height="260" key="GridCell.Tab.0.center" timestamp="1630213470861">
-      <screen x="0" y="0" width="2048" height="1240" />
+    <state width="2005" height="316" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1630269377809" />
+    <state width="1493" height="325" key="GridCell.Tab.0.center" timestamp="1630313841670">
+      <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1491" height="260" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1493" height="325" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630313841670" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1491" height="260" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
-    <state width="1491" height="260" key="GridCell.Tab.0.left" timestamp="1630213470861">
-      <screen x="0" y="0" width="2048" height="1240" />
+    <state width="2005" height="316" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1630269377809" />
+    <state width="1493" height="325" key="GridCell.Tab.0.left" timestamp="1630313841670">
+      <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1491" height="260" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
+    <state width="1493" height="325" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630313841670" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1491" height="260" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
-    <state width="1491" height="260" key="GridCell.Tab.0.right" timestamp="1630213470861">
+    <state width="2005" height="316" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1630269377809" />
+    <state width="1493" height="325" key="GridCell.Tab.0.right" timestamp="1630313841671">
+      <screen x="0" y="0" width="1536" height="984" />
+    </state>
+    <state width="1493" height="325" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630313841671" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
+    <state width="2005" height="316" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1630269377809" />
+    <state x="498" y="358" key="SettingsEditor" timestamp="1630213795027">
       <screen x="0" y="0" width="2048" height="1240" />
     </state>
-    <state width="1491" height="260" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630186583521" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1491" height="260" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1630213470861" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1623200338178">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="498" y="358" key="SettingsEditor/0.0.2048.1240@0.0.2048.1240" timestamp="1630213795027" />
+    <state x="581" y="437" key="Vcs.Push.Dialog.v2" timestamp="1630213912686">
+      <screen x="0" y="0" width="2048" height="1240" />
     </state>
+    <state x="581" y="437" key="Vcs.Push.Dialog.v2/0.0.2048.1240@0.0.2048.1240" timestamp="1630213912686" />
+    <state x="525" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1630303337832">
+      <screen x="0" y="0" width="1536" height="984" />
+    </state>
+    <state x="525" y="325" key="com.intellij.ide.util.TipDialog/0.0.1536.984@0.0.1536.984" timestamp="1630303337832" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623200338178" />
+    <state x="825" y="412" key="git4idea.merge.GitMergeDialog" timestamp="1630213937427">
+      <screen x="0" y="0" width="2048" height="1240" />
+    </state>
+    <state x="825" y="412" key="git4idea.merge.GitMergeDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1630213937427" />
+    <state x="431" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1630219056616">
+      <screen x="0" y="0" width="1536" height="984" />
+    </state>
+    <state x="431" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1536.984@0.0.1536.984" timestamp="1630219056616" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -339,7 +383,7 @@
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max_01.coverage" NAME="Unittests for voting_unittests.TestList.test_max_01 Coverage Results" MODIFIED="1608980490989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_05.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_05 Coverage Results" MODIFIED="1609106481104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_04.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_04 Coverage Results" MODIFIED="1609038768364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630213470855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630313841651" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_02.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_02 Coverage Results" MODIFIED="1609059451353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1608782631083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_08.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_08 Coverage Results" MODIFIED="1609143650474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

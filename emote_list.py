@@ -20,13 +20,16 @@ class EmoteList:
         """Returns the dictionary containing all emote ids and the frequency they were used across the server"""
         return self.totals
 
-    def add(self, emote_id, user):
+    def add(self, emote_id, guild, user):
         """Increases use count of an emoji by one in both the total and for the message author"""
         # add 1 to freq of emote_id, or initialize if key does not exist
-        if emote_id in self.totals:
-            self.totals[emote_id] += 1
+        if guild in self.totals:
+            if emote_id in self.totals[guild]:
+                self.totals[guild][emote_id] += 1
+            else:
+                self.totals[guild][emote_id] = 1
         else:
-            self.totals[emote_id] = 1
+            self.totals[guild] = {emote_id: 1}
 
         # add to user emote frequency
         # self.users.add(user, emote_id)
