@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/cog_ext.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/const.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/context.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/dpy_overrides.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/error.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/http.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/manage_commands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_slash/utils/manage_components.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EListEncoder.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/emote_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/emote_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/emotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/emotes.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -252,7 +232,7 @@
       <workItem from="1622444332815" duration="768000" />
       <workItem from="1623200157591" duration="192000" />
       <workItem from="1630178974958" duration="17845000" />
-      <workItem from="1630303334966" duration="8139000" />
+      <workItem from="1630303334966" duration="8404000" />
     </task>
     <task id="LOCAL-00001" summary="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment.">
       <created>1630213711307</created>
@@ -261,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630213711307</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changed frequency output to embed, added per-guild emoji tracking, and added owner-only check to kill. Also added packages for interactions (future endeavor).">
+      <created>1630314153238</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630314153238</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,12 +267,14 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment." />
+    <MESSAGE value="Changed frequency output to embed, added per-guild emoji tracking, and added owner-only check to kill. Also added packages for interactions (future endeavor)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed frequency output to embed, added per-guild emoji tracking, and added owner-only check to kill. Also added packages for interactions (future endeavor)." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="614" y="310" key="CommitChangelistDialog2" timestamp="1630213709798">
-      <screen x="0" y="0" width="2048" height="1240" />
+    <state x="350" y="174" key="CommitChangelistDialog2" timestamp="1630314149226">
+      <screen x="0" y="0" width="1536" height="984" />
     </state>
+    <state x="350" y="174" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630314149226" />
     <state x="614" y="310" key="CommitChangelistDialog2/0.0.2048.1240@0.0.2048.1240" timestamp="1630213709798" />
     <state width="1493" height="325" key="GridCell.Tab.0.bottom" timestamp="1630313841671">
       <screen x="0" y="0" width="1536" height="984" />
