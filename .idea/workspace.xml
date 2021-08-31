@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Queue.py" afterDir="false" />
+    <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event. Also added SystemExit exception to on_message event (which would throw error when sending kill command response).">
+      <change afterPath="$PROJECT_DIR$/cogs/queue.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
     </list>
@@ -40,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Volbonan &lt;sbluegaming@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fOpaigMSIGyBECj0NUHstS0jC8" />
@@ -233,7 +237,7 @@
       <workItem from="1622444332815" duration="768000" />
       <workItem from="1623200157591" duration="192000" />
       <workItem from="1630178974958" duration="17845000" />
-      <workItem from="1630303334966" duration="35793000" />
+      <workItem from="1630303334966" duration="37389000" />
     </task>
     <task id="LOCAL-00001" summary="Added save/load emote list through jsonpickle module. Also removed references to UserMap for the moment.">
       <created>1630213711307</created>
@@ -263,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630314813665</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event. Also added SystemExit exception to on_message event (which would throw error when sending kill command response).">
+      <created>1630438544352</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630438544444</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -285,43 +296,44 @@
     <MESSAGE value="Changed frequency output to embed, added per-guild emoji tracking, and added owner-only check to kill. Also added packages for interactions (future endeavor)." />
     <MESSAGE value="Added very basic queue feature. Todo: Mark voice channel for invite, delete queue message after amount of time, argument for user limit." />
     <MESSAGE value="Removed emotes.json from git repo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed emotes.json from git repo." />
+    <MESSAGE value="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event. Also added SystemExit exception to on_message event (which would throw error when sending kill command response)." />
+    <option name="LAST_COMMIT_MESSAGE" value="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event. Also added SystemExit exception to on_message event (which would throw error when sending kill command response)." />
   </component>
   <component name="WindowStateProjectService">
     <state x="642" y="245" key="#xdebugger.XInspectDialog" timestamp="1630395788694">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
     <state x="642" y="245" key="#xdebugger.XInspectDialog/0.0.1536.984@0.0.1536.984" timestamp="1630395788694" />
-    <state x="327" y="137" key="CommitChangelistDialog2" timestamp="1630437783887">
+    <state x="-18" y="90" key="CommitChangelistDialog2" timestamp="1630438712779">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state x="327" y="137" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630437783887" />
+    <state x="-18" y="90" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630438712779" />
     <state x="614" y="310" key="CommitChangelistDialog2/0.0.2048.1240@0.0.2048.1240" timestamp="1630432515202" />
-    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1630438444541">
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1630439717482">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630438444541" />
+    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630439717482" />
     <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
     <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
     <state width="1070" height="315" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344998" />
-    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1630438444540">
+    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1630439717482">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630438444540" />
+    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630439717482" />
     <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
     <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
     <state width="1070" height="315" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
-    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1630438444540">
+    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1630439717482">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630438444540" />
+    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630439717482" />
     <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
     <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
     <state width="1070" height="315" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
-    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1630438444540">
+    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1630439717482">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630438444540" />
+    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630439717482" />
     <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
     <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
     <state width="1070" height="315" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
@@ -403,7 +415,7 @@
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max_01.coverage" NAME="Unittests for voting_unittests.TestList.test_max_01 Coverage Results" MODIFIED="1608980490989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_05.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_05 Coverage Results" MODIFIED="1609106481104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_04.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_04 Coverage Results" MODIFIED="1609038768364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630438444535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630439717473" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_02.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_02 Coverage Results" MODIFIED="1609059451353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1608782631083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_08.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_08 Coverage Results" MODIFIED="1609143650474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
