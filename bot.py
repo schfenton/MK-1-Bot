@@ -36,6 +36,8 @@ async def on_ready():
 async def on_command_error(ctx, error):
     if isinstance(error, commands.errors.CheckFailure):
         await ctx.send("I can't do that for you.")
+    elif isinstance(error, commands.errors.UserInputError):
+        await ctx.send("You don't make any sense, check the command parameters.")
 
 
 @bot.event
@@ -49,13 +51,13 @@ async def on_message(message):
         await bot.process_commands(message)
 
 
-@bot.command(name='hello')
-async def greeting(ctx):
+@bot.command()
+async def hello(ctx):
     await ctx.send('Hello!')
 
 
-@bot.command(name='getfreq')
-async def get_frequency(ctx):
+@bot.command(name='getfreq', help="Returns amount each custom emote has been used in this server")
+async def get_emote_frequency(ctx):
     totals = list(emoteList.get_totals()[ctx.guild.id].items())
     if len(totals) > 0:
         output = f"{totals[0][0]}\t:\t{totals[0][1]}"
@@ -67,7 +69,7 @@ async def get_frequency(ctx):
         await ctx.send("No custom emotes have been used.")
 
 
-@bot.command(name='pokemon')
+@bot.command(name="pokemon", help="Input a name or phrase to determine its related pokemon name")
 async def get_pokemon_name(ctx, *, arg):
     total = 0
     for c in arg:
@@ -75,10 +77,15 @@ async def get_pokemon_name(ctx, *, arg):
             total += ord(c) - 96
         elif 65 <= ord(c) <= 90:  # if uppercase
             total += ord(c) - 64
-    await ctx.send(pokemon_list[total])
+    await ctx.send(pokemon_list[total] + " (id: "+str(total)+")")
 
 
-@bot.command(name='kill')
+@bot.command()
+async def test(ctx, *, arg):
+    await ctx.send(arg)
+
+
+@bot.command(name='kill', help="Bot owner only; Kills bot functions")
 @commands.is_owner()
 async def leave(ctx):
     with open(emote_filename, 'w') as f_obj:
