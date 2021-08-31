@@ -1,5 +1,8 @@
+import asyncio
+
 from discord.ext import commands
 from discord import Embed
+from discord import Color
 from dotenv import load_dotenv
 import os
 
@@ -25,9 +28,6 @@ except FileNotFoundError:
 with open('pokemon.json', 'r') as f:
     pokemon_list = json.load(f)
 
-queueList = {}
-voiceChannel = 737612005242044447
-
 
 @bot.event
 async def on_ready():
@@ -36,27 +36,16 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.author == bot.user or message.content[0] == bot.command_prefix:
-        await bot.process_commands(message)
-        return None
-
-    emote_ids = emote_list.parse_message(message.content)
-    for emote_id in emote_ids:
-        emoteList.add(emote_id, message.guild.id, message.author)
-    print(emote_ids)
-
-
-@bot.event
-async def on_reaction_add(reaction, r_user):
-    if reaction.message.id in queueList:
-        if reaction.count >= queueList[reaction.message.id]:
-            invite = await reaction.message.guild.get_channel(voiceChannel).create_invite(max_age=300)
-            async for user in reaction.users():
-                if user != bot.user:
-                    await user.send("Time to join! " + invite.url)
-            await reaction.message.channel.send("Queue ended, join the voice channel.")
-            await reaction.message.delete()
-            del queueList[reaction.message.id]
+    try:
+        if message.author != bot.user and message.content[0] != bot.command_prefix:
+            emote_ids = emote_list.parse_message(message.content)
+            for emote_id in emote_ids:
+                emoteList.add(emote_id, message.guild.id, message.author)
+            print(emote_ids)
+        else:
+            await bot.process_commands(message)
+    except SystemExit:
+        exit()
 
 
 @bot.event
@@ -94,12 +83,35 @@ async def get_pokemon_name(ctx, *, arg):
     await ctx.send(pokemon_list[total])
 
 
-@bot.command(name='newqueue')
+active_queues = set()
+
+
+@bot.command(name='queue')
 async def new_event_queue(ctx):
     msg = await ctx.send(embed=Embed(title="Queue started", description="Click the check mark to be notified when 2 "
                                                                         "people are ready!"))
-    queueList[msg.id] = 2
     await msg.add_reaction("✅")
+    msg = await ctx.fetch_message(msg.id)
+
+    def reactionq_check(reaction, user):
+        return reaction.message.channel == msg.channel and user != bot.user
+
+    try:
+        while msg.reactions[0].count < 2:
+            await bot.wait_for('reaction_add', check=reactionq_check, timeout=900)  # use check to avoid constant timer
+            msg = await ctx.fetch_message(msg.id)
+        # Why can't I get the users after saving the reaction data? Who knows. Now we gotta flatten the damn thing.
+        queued_users = await msg.reactions[0].users().flatten()
+        await msg.delete()
+        reply = await ctx.send("✅ Queue filled! Join the voice channel. ✅")
+        for user in queued_users:
+            if user != bot.user:
+                await user.send(embed=Embed(title="Time to join "+ctx.guild.name+"!",
+                                            description="[Click me to jump to the server]("+reply.jump_url+")",
+                                            color=Color.green()))
+    except asyncio.TimeoutError:
+        await msg.delete()
+        await ctx.send("❌ Queue timed out, not enough people. ❌")
 
 
 @bot.command(name='kill')
@@ -109,6 +121,7 @@ async def leave(ctx):
         f_obj.write(jsonpickle.encode(emoteList, keys=True))
     await ctx.send("See ya!")
     exit()
+
 
 
 # def exit_handler():
