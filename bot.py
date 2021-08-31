@@ -40,16 +40,13 @@ async def on_command_error(ctx, error):
 
 @bot.event
 async def on_message(message):
-    try:
-        if message.author != bot.user and message.content[0] != bot.command_prefix:
-            emote_ids = emote_list.parse_message(message.content)
-            for emote_id in emote_ids:
-                emoteList.add(emote_id, message.guild.id, message.author)
-            print(emote_ids)
-        else:
-            await bot.process_commands(message)
-    except SystemExit:
-        exit()
+    if message.author != bot.user and message.content[0] != bot.command_prefix:
+        emote_ids = emote_list.parse_message(message.content)
+        for emote_id in emote_ids:
+            emoteList.add(emote_id, message.guild.id, message.author)
+        print(emote_ids)
+    else:
+        await bot.process_commands(message)
 
 
 @bot.command(name='hello')

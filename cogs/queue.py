@@ -16,12 +16,12 @@ class Queue(commands.Cog):
         await msg.add_reaction("✅")
         msg = await ctx.fetch_message(msg.id)
 
-        def reactionq_check(reaction, r_user):
+        def reaction_check(reaction, r_user):
             return reaction.message.channel == msg.channel and r_user != self.bot.user
 
         try:
             while msg.reactions[0].count < 2:
-                await self.bot.wait_for('reaction_add', check=reactionq_check,
+                await self.bot.wait_for('reaction_add', check=reaction_check,
                                         timeout=900)  # use check to avoid constant timer
                 msg = await ctx.fetch_message(msg.id)
             # Why can't I get the users after saving the reaction data? Who knows. Now we gotta flatten the damn thing.

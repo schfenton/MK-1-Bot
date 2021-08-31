@@ -83,6 +83,11 @@
       </console-settings>
     </option>
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Documents\Code\MK-1\cogs" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.bot">
     <configuration name="bot" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="MK-1" />
@@ -304,10 +309,10 @@
       <screen x="0" y="0" width="1536" height="984" />
     </state>
     <state x="642" y="245" key="#xdebugger.XInspectDialog/0.0.1536.984@0.0.1536.984" timestamp="1630395788694" />
-    <state x="-18" y="90" key="CommitChangelistDialog2" timestamp="1630438712779">
+    <state x="0" y="87" key="CommitChangelistDialog2" timestamp="1630439927948">
       <screen x="0" y="0" width="1536" height="984" />
     </state>
-    <state x="-18" y="90" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630438712779" />
+    <state x="0" y="87" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630439927948" />
     <state x="614" y="310" key="CommitChangelistDialog2/0.0.2048.1240@0.0.2048.1240" timestamp="1630432515202" />
     <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1630439717482">
       <screen x="0" y="0" width="1536" height="984" />
