@@ -1,10 +1,260 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="Added help descriptors and renamed queue command function.">
+    <list default="true" id="c236db9b-a615-4b98-952c-3fb9a45ecd1f" name="Default Changelist" comment="Reinitialized venv">
+      <change beforePath="$PROJECT_DIR$/.idea/MK-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/MK-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/bot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cogs/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/cogs/queue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp-3.6.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp-3.6.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp-3.6.2.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp-3.6.2.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_find_header.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_find_header.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_frozenlist.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_frozenlist.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_headers.pxi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_headers.pxi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_helpers.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_helpers.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_helpers.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_helpers.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_parser.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_parser.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_parser.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_parser.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_writer.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_writer.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_writer.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_http_writer.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_websocket.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_websocket.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_websocket.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/_websocket.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/base_protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/base_protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_proto.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_proto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_reqrep.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_reqrep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/client_ws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/connector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/connector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/cookiejar.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/cookiejar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/formdata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/formdata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/frozenlist.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/frozenlist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/frozenlist.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/frozenlist.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/hdrs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/hdrs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_websocket.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_websocket.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_writer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/http_writer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/locks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/locks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/multipart.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/multipart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/payload.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/payload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/payload_streamer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/payload_streamer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/py.typed" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/py.typed" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/pytest_plugin.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/pytest_plugin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/resolver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/resolver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/signals.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/signals.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/streams.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/streams.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/tcp_helpers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/tcp_helpers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/test_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/test_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/tracing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/tracing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/typedefs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/typedefs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_fileresponse.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_fileresponse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_middlewares.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_routedef.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_routedef.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_runner.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_server.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_server.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_urldispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_urldispatcher.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_ws.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/web_ws.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/aiohttp/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/async_timeout-3.0.1.dist-info/RECORD" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/async_timeout-3.0.1.dist-info/RECORD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/__init__.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/__init__.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_make.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_make.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_version_info.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/_version_info.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/converters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/converters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/converters.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/converters.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/exceptions.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/exceptions.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/filters.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/filters.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/validators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/validators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attr/validators.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attr/validators.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attrs-19.3.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attrs-19.3.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/attrs-19.3.0.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/attrs-19.3.0.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet-3.0.4.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/charsetgroupprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/chardetect.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/cli/chardetect.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langbulgarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langbulgarianmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langgreekmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langgreekmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhebrewmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhebrewmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhungarianmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langhungarianmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langthaimodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langthaimodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langturkishmodel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/langturkishmodel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcharsetprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcharsetprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcsgroupprober.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/sbcsgroupprober.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/universaldetector.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/universaldetector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/chardet/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord-1.0.1.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord-1.0.1.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord-1.0.1.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord-1.0.1.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord.py-1.3.4.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord.py-1.3.4.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord.py-1.3.4.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord.py-1.3.4.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/activity.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/activity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/appinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/appinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/asset.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/asset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/audit_logs.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/audit_logs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/backoff.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/backoff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/bin/libopus-0.x64.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/bin/libopus-0.x64.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/bin/libopus-0.x86.dll" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/bin/libopus-0.x86.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/calls.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/calls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/channel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/colour.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/colour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/context_managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/context_managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/embeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/embeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/emoji.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/emoji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/enums.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/enums.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/_types.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/_types.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/cog.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/cog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/context.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/context.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/cooldowns.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/cooldowns.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/errors.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/errors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/help.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/help.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/view.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/commands/view.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/tasks/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/ext/tasks/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/file.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/file.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/flags.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/flags.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/gateway.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/gateway.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/guild.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/guild.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/http.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/http.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/invite.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/invite.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/iterators.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/iterators.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/member.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/member.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/object.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/object.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/oggparse.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/oggparse.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/opus.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/opus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/partial_emoji.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/partial_emoji.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/permissions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/player.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/raw_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/raw_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/reaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/reaction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/relationship.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/relationship.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/role.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/role.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/shard.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/shard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/team.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/voice_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/voice_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/webhook.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/webhook.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord/widget.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord/widget.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/WHEEL" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/discord_py_interactions-3.0.2.dist-info/WHEEL" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/ipython.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/ipython.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/version.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/dotenv/version.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna-2.10.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/codec.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/codec.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/core.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/idnadata.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/intranges.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/intranges.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/package_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/package_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/idna/uts46data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle-2.0.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/numpy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/numpy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/ext/pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/pickler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/pickler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/unpickler.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/unpickler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/jsonpickle/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict-4.7.6.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict-4.7.6.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/__init__.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/__init__.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_abc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_abc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_multidict_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/multidict/_multidict_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_internal/cli/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_internal/cli/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_internal/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_internal/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/cachecontrol/_cmd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/cachecontrol/caches/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/cachecontrol/caches/redis_cache.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/cachecontrol/heuristics.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/chardet/cli/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/distlib/_backport/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/distlib/_backport/misc.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/distlib/_backport/sysconfig.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/distlib/_backport/tarfile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/_trie/py.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/alphabeticalattributes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/inject_meta_charset.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/lint.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/optionaltags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/filters/whitespace.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treeadapters/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treeadapters/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treeadapters/sax.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treebuilders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treewalkers/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treewalkers/dom.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/html5lib/treewalkers/genshi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/pkg_resources/py31compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/pkg_resources/py31compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/urllib3/contrib/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/urllib3/packages/backports/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/webencodings/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/webencodings/labels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/webencodings/mklabels.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/webencodings/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/pip-19.0.3-py3.8.egg/pip/_vendor/webencodings/x_user_defined.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/entry_points.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/entry_points.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/python_dotenv-0.14.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions-3.7.4.2.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions-3.7.4.2.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions-3.7.4.2.dist-info/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions-3.7.4.2.dist-info/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/typing_extensions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/websockets/extensions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/websockets/py.typed" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl-1.5.0.dist-info/INSTALLER" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl-1.5.0.dist-info/INSTALLER" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl-1.5.0.dist-info/top_level.txt" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl-1.5.0.dist-info/top_level.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/__init__.pyi" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/__init__.pyi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_c.c" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_c.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_c.pyx" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_c.pyx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_py.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_quoting_py.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/yarl/_url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/chardetect.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/coverage-3.8.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/coverage-3.8.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/dotenv.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/dotenv.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/python.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/python.exe" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,9 +278,6 @@
     <expand />
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="MK-1" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -41,8 +288,14 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="schfenton &lt;schfenton@gmail.com&gt;" />
         <option value="Volbonan &lt;sbluegaming@gmail.com&gt;" />
       </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="43eac3772547e60b1c545bc3c525e0cb745e8652" />
+      </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -52,7 +305,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -72,7 +324,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -194,11 +445,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.bot" />
+        <item itemvalue="Python tests.Unittests in voting_unittests.py" />
+        <item itemvalue="Python.scratch2" />
         <item itemvalue="Python.scratch" />
         <item itemvalue="Python.lab00" />
-        <item itemvalue="Python.scratch2" />
-        <item itemvalue="Python tests.Unittests in voting_unittests.py" />
+        <item itemvalue="Python.bot" />
       </list>
     </recent_temporary>
   </component>
@@ -296,9 +547,6 @@
     <option name="localTasksCounter" value="8" />
     <servers />
   </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
   <component name="Vcs.Log.History.Properties">
     <option name="COLUMN_ORDER">
       <list>
@@ -307,6 +555,17 @@
         <option value="3" />
         <option value="1" />
       </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
@@ -318,76 +577,8 @@
     <MESSAGE value="Queue now waits for reaction and can timeout without activity instead of relying on every on_reaction_add event. Also added SystemExit exception to on_message event (which would throw error when sending kill command response)." />
     <MESSAGE value="Refactored queue functionality into cog." />
     <MESSAGE value="Removed error handling from on_message (it didn't work) and refactored queue reaction check function." />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed error handling from on_message (it didn't work) and refactored queue reaction check function." />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="642" y="245" key="#xdebugger.XInspectDialog" timestamp="1630395788694">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="642" y="245" key="#xdebugger.XInspectDialog/0.0.1536.984@0.0.1536.984" timestamp="1630395788694" />
-    <state x="0" y="87" key="CommitChangelistDialog2" timestamp="1630443603011">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="0" y="87" key="CommitChangelistDialog2/0.0.1536.984@0.0.1536.984" timestamp="1630443603011" />
-    <state x="614" y="310" key="CommitChangelistDialog2/0.0.2048.1240@0.0.2048.1240" timestamp="1630432515202" />
-    <state width="1493" height="315" key="GridCell.Tab.0.bottom" timestamp="1630452672403">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.bottom/0.0.1536.984@0.0.1536.984" timestamp="1630452672403" />
-    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1493" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
-    <state width="1070" height="315" key="GridCell.Tab.0.bottom/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344998" />
-    <state width="1493" height="315" key="GridCell.Tab.0.center" timestamp="1630452672403">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.center/0.0.1536.984@0.0.1536.984" timestamp="1630452672403" />
-    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1493" height="238" key="GridCell.Tab.0.center/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
-    <state width="1070" height="315" key="GridCell.Tab.0.center/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
-    <state width="1493" height="315" key="GridCell.Tab.0.left" timestamp="1630452672403">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.left/0.0.1536.984@0.0.1536.984" timestamp="1630452672403" />
-    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1493" height="238" key="GridCell.Tab.0.left/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
-    <state width="1070" height="315" key="GridCell.Tab.0.left/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
-    <state width="1493" height="315" key="GridCell.Tab.0.right" timestamp="1630452672403">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state width="1493" height="315" key="GridCell.Tab.0.right/0.0.1536.984@0.0.1536.984" timestamp="1630452672403" />
-    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1622449173030" />
-    <state width="1493" height="238" key="GridCell.Tab.0.right/0.0.1920.1230@0.0.1920.1230" timestamp="1630383299186" />
-    <state width="1070" height="315" key="GridCell.Tab.0.right/0.0.2048.1240@0.0.2048.1240" timestamp="1630432344997" />
-    <state x="374" y="270" key="SettingsEditor" timestamp="1630314508109">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="374" y="270" key="SettingsEditor/0.0.1536.984@0.0.1536.984" timestamp="1630314508109" />
-    <state x="498" y="358" key="SettingsEditor/0.0.2048.1240@0.0.2048.1240" timestamp="1630213795027" />
-    <state x="581" y="437" key="Vcs.Push.Dialog.v2" timestamp="1630213912686">
-      <screen x="0" y="0" width="2048" height="1240" />
-    </state>
-    <state x="581" y="437" key="Vcs.Push.Dialog.v2/0.0.2048.1240@0.0.2048.1240" timestamp="1630213912686" />
-    <state x="525" y="325" key="com.intellij.ide.util.TipDialog" timestamp="1630303337832">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="525" y="325" key="com.intellij.ide.util.TipDialog/0.0.1536.984@0.0.1536.984" timestamp="1630303337832" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1623200338178" />
-    <state x="578" y="409" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1630391451935">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="578" y="409" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.984@0.0.1536.984" timestamp="1630391451935" />
-    <state x="330" y="228" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1630452128011">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="330" y="228" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.984@0.0.1536.984" timestamp="1630452128011" />
-    <state x="825" y="412" key="git4idea.merge.GitMergeDialog" timestamp="1630213937427">
-      <screen x="0" y="0" width="2048" height="1240" />
-    </state>
-    <state x="825" y="412" key="git4idea.merge.GitMergeDialog/0.0.2048.1240@0.0.2048.1240" timestamp="1630213937427" />
-    <state x="431" y="211" width="672" height="678" key="search.everywhere.popup" timestamp="1630389081712">
-      <screen x="0" y="0" width="1536" height="984" />
-    </state>
-    <state x="431" y="211" width="672" height="678" key="search.everywhere.popup/0.0.1536.984@0.0.1536.984" timestamp="1630389081712" />
+    <MESSAGE value="Reinitialized venv" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reinitialized venv" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -430,37 +621,37 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_04.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_04 Coverage Results" MODIFIED="1608962763667" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$voting_test.coverage" NAME="voting_test Coverage Results" MODIFIED="1608890846754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/MK_1$lab00.coverage" NAME="lab00 Coverage Results" MODIFIED="1609969532538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive - California Polytechnic State University/2020-2021/Winter 2021/CPE 203/lab0" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_06.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_06 Coverage Results" MODIFIED="1609100434534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank.coverage" NAME="Unittests for voting_unittests.TestList.test_rank Coverage Results" MODIFIED="1609037970571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_05b.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_05b Coverage Results" MODIFIED="1608963648174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_03.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_03 Coverage Results" MODIFIED="1609065029375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_tests_TestList_test_vote_err_01.coverage" NAME="Unittests for voting_tests.TestList.test_vote_err_01 Coverage Results" MODIFIED="1608961546113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_err.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_err Coverage Results" MODIFIED="1609066621130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_07.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_07 Coverage Results" MODIFIED="1609106572123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_01.coverage" NAME="Unittests for voting_unittests.TestList.test_01 Coverage Results" MODIFIED="1608963894988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_in_voting_unittests_py.coverage" NAME="Unittests in voting_unittests.py Coverage Results" MODIFIED="1609143655127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_candidate_err_02.coverage" NAME="Unittests for voting_unittests.TestList.test_candidate_err_02 Coverage Results" MODIFIED="1608962608078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_03.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_03 Coverage Results" MODIFIED="1609038668202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$scratch2.coverage" NAME="scratch2 Coverage Results" MODIFIED="1609191824208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList.coverage" NAME="Unittests for voting_unittests.TestList Coverage Results" MODIFIED="1609015936910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1622444504106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max_01.coverage" NAME="Unittests for voting_unittests.TestList.test_max_01 Coverage Results" MODIFIED="1608980490989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_05.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_05 Coverage Results" MODIFIED="1609106481104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_04.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_04 Coverage Results" MODIFIED="1609038768364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1630452672398" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_02.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_02 Coverage Results" MODIFIED="1609059451353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1608782631083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/MK_1$bot.coverage" NAME="bot Coverage Results" MODIFIED="1643430645996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$voting_test.coverage" NAME="voting_test Coverage Results" MODIFIED="1608890846754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/MK_1$lab00.coverage" NAME="lab00 Coverage Results" MODIFIED="1609969532538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/OneDrive - California Polytechnic State University/2020-2021/Winter 2021/CPE 203/lab0" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_err.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_err Coverage Results" MODIFIED="1609066621130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_tests_TestList.coverage" NAME="Unittests for voting_tests.TestList Coverage Results" MODIFIED="1608961542131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_in_voting_unittests_py.coverage" NAME="Unittests in voting_unittests.py Coverage Results" MODIFIED="1609143655127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_candidate_err_01.coverage" NAME="Unittests for voting_unittests.TestList.test_candidate_err_01 Coverage Results" MODIFIED="1608962558270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_03.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_03 Coverage Results" MODIFIED="1609038668202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_08.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_08 Coverage Results" MODIFIED="1609143650474" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_05.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_05 Coverage Results" MODIFIED="1608962802908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_02.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_02 Coverage Results" MODIFIED="1608961720521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max.coverage" NAME="Unittests for voting_unittests.TestList.test_max Coverage Results" MODIFIED="1609058271161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_04.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_04 Coverage Results" MODIFIED="1609065894102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_tests_TestList.coverage" NAME="Unittests for voting_tests.TestList Coverage Results" MODIFIED="1608961542131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_01.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_01 Coverage Results" MODIFIED="1609057445529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_03.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_03 Coverage Results" MODIFIED="1608962487958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_01.coverage" NAME="Unittests for voting_unittests.TestList.test_01 Coverage Results" MODIFIED="1608963894988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_05b.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_05b Coverage Results" MODIFIED="1608963648174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank_04.coverage" NAME="Unittests for voting_unittests.TestList.test_rank_04 Coverage Results" MODIFIED="1609038768364" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_rank.coverage" NAME="Unittests for voting_unittests.TestList.test_rank Coverage Results" MODIFIED="1609037970571" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_04b.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_04b Coverage Results" MODIFIED="1608963620337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_candidate_err_01.coverage" NAME="Unittests for voting_unittests.TestList.test_candidate_err_01 Coverage Results" MODIFIED="1608962558270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_02.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_02 Coverage Results" MODIFIED="1609059451353" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_max.coverage" NAME="Unittests for voting_unittests.TestList.test_max Coverage Results" MODIFIED="1609058271161" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_05.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_05 Coverage Results" MODIFIED="1609106481104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_vote_err_03.coverage" NAME="Unittests for voting_unittests.TestList.test_vote_err_03 Coverage Results" MODIFIED="1608962487958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_01.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_01 Coverage Results" MODIFIED="1609057445529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_04.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_04 Coverage Results" MODIFIED="1609065894102" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_poll_07.coverage" NAME="Unittests for voting_unittests.TestList.test_poll_07 Coverage Results" MODIFIED="1609106572123" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$scratch2.coverage" NAME="scratch2 Coverage Results" MODIFIED="1609191824208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList.coverage" NAME="Unittests for voting_unittests.TestList Coverage Results" MODIFIED="1609015936910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$Unittests_for_voting_unittests_TestList_test_candidate_err_02.coverage" NAME="Unittests for voting_unittests.TestList.test_candidate_err_02 Coverage Results" MODIFIED="1608962608078" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MK_1$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1622444504106" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/MK_1$scratch_1.coverage" NAME="scratch_1 Coverage Results" MODIFIED="1608782631083" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </project>
